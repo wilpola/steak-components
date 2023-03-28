@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "TypeScript component library for React",
   "scripts": {
-    "build": "tsc",
     "rollup": "rollup -c"
   },
   "keywords": [],
