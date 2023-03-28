@@ -6,6 +6,7 @@ type Props = {
   type?: string;
   class?: string;
   id?: string;
+  placeholder?: string;
 };
 
 // Import Modules
@@ -23,6 +24,7 @@ const Input = (params: Props) => {
       type={params.type || "text"}
       value={value}
       onChange={(e) => setValue(e.target.value)}
+      placeholder={params.placeholder || "Enter text.."}
     />
   );
 };
