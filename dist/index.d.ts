@@ -5,4 +5,5 @@ type Props = {
     id?: string;
 };
 declare const Input: (params: Props) => JSX.Element;
-export default Input;
+
+export { Input };
