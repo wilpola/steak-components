@@ -1,5 +1,5 @@
 {
-  "name": "steak-components",
+  "name": "@wilpola/steak-components",
   "version": "0.0.1",
   "description": "TypeScript component library for React",
   "scripts": {
@@ -7,6 +7,9 @@
   },
   "keywords": [],
   "author": "wilpola",
+  "repository": {
+    "url": "git://github.com/wilpola/steak-components.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
@@ -26,5 +29,8 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/wilpola"
+  }
 }
