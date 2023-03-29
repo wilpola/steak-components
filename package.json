@@ -24,16 +24,21 @@
     "@storybook/addon-essentials": "^7.0.0-rc.8",
     "@storybook/addon-interactions": "^7.0.0-rc.8",
     "@storybook/addon-links": "^7.0.0-rc.8",
+    "@storybook/addon-mdx-gfm": "^7.0.0-rc.8",
     "@storybook/blocks": "^7.0.0-rc.8",
     "@storybook/react": "^7.0.0-rc.8",
     "@storybook/react-webpack5": "^7.0.0-rc.8",
     "@storybook/testing-library": "^0.0.14-next.1",
     "@types/react": "^18.0.30",
     "babel-loader": "^8.3.0",
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^3.20.2",
     "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
     "storybook": "^7.0.0-rc.8",
     "ts-loader": "^9.4.2",
     "tslib": "^2.5.0",
@@ -48,6 +53,5 @@
   "types": "dist/index.d.ts",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/wilpola"
-  },
-  "peerDependencies": {}
+  }
 }
