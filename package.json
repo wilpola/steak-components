@@ -1,6 +1,6 @@
 {
   "name": "@wilpola/steak-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript component library for React",
   "scripts": {
     "rollup": "rollup -c",
