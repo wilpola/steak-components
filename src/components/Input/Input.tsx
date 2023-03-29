@@ -1,9 +1,12 @@
 // Creates an Input element
 // @author: wilpola
 
+// Import styles
+import "./input.css";
+
 // Set up prop types for params
-type Props = {
-  type?: string;
+interface Props {
+  type?: 'text' | 'password' | 'number' | 'email';
   class?: string;
   id?: string;
   placeholder?: string;
