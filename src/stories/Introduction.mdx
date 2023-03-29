@@ -8,7 +8,7 @@ import Plugin from './assets/plugin.svg';
 import Repo from './assets/repo.svg';
 import StackAlt from './assets/stackalt.svg';
 
-<Meta title="Getting started" />
+<Meta title="Overview/Getting started" />
 
 <style>
   {`
@@ -105,8 +105,10 @@ import StackAlt from './assets/stackalt.svg';
     .tip-wrapper {
       font-size: 13px;
       line-height: 20px;
-      margin-top: 40px;
-      margin-bottom: 40px;
+    }
+
+    .tip {
+      font-weight: heavy;
     }
 
     .tip-wrapper code {
@@ -117,16 +119,20 @@ import StackAlt from './assets/stackalt.svg';
 </style>
 
 # Introducing steak-components
-steak-components is a component library designed to be reused across the web, and to make the development process for new comers easier, and faster. For this reason we are documenting everything on storybook. 
+<div className="tip-wrapper">
+  <span className="tip"><strong>Updated</strong></span>3/29/23
+  <code>v0.0.1-alpha.1</code>
+</div>
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+steak-components -library is a personal side project to enhance production speed for personal projects. At the time of building it is built by a singular student to allow other students at Turku University of Applied Sciences to write better React.js applications. One of the main reasons this library was created is to improve [**Project Gate**](https://gate.wilpola.com/) that has been under development for many years now. With the help of this component library, and the documentation written into this story book, students that come after me [**@wilpola**](https://github.com/wilpola) should be able to update and improve upon the Project.
 
-Browse example stories now by navigating to them in the sidebar.
-View their code in the `stories` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+### About the library
+All components have been written in TypeScript, and they are shipped with their respective css files. The reason for this is uniformativity, and the fact that there will be a single point of truth that is located in the package. During the development process, all components are tested, documented, and approved before a new release of the components library is released.
 
-<div className="subheading">Configure</div>
+### How to use the documentation?
+The best way to use the documentation is to find the component in question, and interact with the component.Really digest what happens when different props are changed. The change will happen in real time.
+
+<div className="subheading">Resources</div>
 
 <div className="link-list">
   <a
@@ -206,9 +212,4 @@ We recommend building UIs with a [**component-driven**](https://componentdriven.
       Chat with maintainers and the community
     </span>
   </a>
-</div>
-
-<div className="tip-wrapper">
-  <span className="tip">Tip</span>Edit the Markdown in{' '}
-  <code>stories/Introduction.stories.mdx</code>
 </div>
